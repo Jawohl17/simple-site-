@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Site Template</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Simple Site</h1>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home">Головна</a></li>
+                        <li><a href="#about">Про нас</a></li>
+                        <li><a href="#services">Послуги</a></li>
+                        <li><a href="#contact">Контакти</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="particles" id="particles"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-badge">✨ НОВИЙ ДОСВІД</div>
+                    <h2 class="hero-title">
+                        <span class="title-line">Створюємо</span>
+                        <span class="title-line highlight">ВРАЖАЮЧІ</span>
+                        <span class="title-line">Веб-Рішення</span>
+                    </h2>
+                    <p class="hero-text">Інноваційний дизайн, потужна функціональність та неперевершений користувацький досвід</p>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-primary">
+                            <span>Дізнатися більше</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Зв'язатися</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="500">0</div>
+                            <div class="stat-label">Проєктів</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="98">0</div>
+                            <div class="stat-label">Задоволених клієнтів</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="10">0</div>
+                            <div class="stat-label">Років досвіду</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">Про нас</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Ми створюємо сучасні та адаптивні веб-сайти, які чудово виглядають на всіх пристроях. Наш підхід до дизайну забезпечує оптимальний користувацький досвід незалежно від розміру екрану.</p>
+                        <p>Використовуючи найновіші технології та найкращі практики, ми розробляємо рішення, які є не лише красивими, але й функціональними.</p>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-placeholder">
+                            <span>Зображення</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Наші послуги</h2>
+                <div class="services-grid">
+                    <div class="service-card" data-tilt>
+                        <div class="card-glow"></div>
+                        <div class="service-icon">
+                            <img src="images/Веб-дизайн.png" alt="Веб-дизайн">
+                        </div>
+                        <h3>Веб-дизайн</h3>
+                        <p>Створення сучасних та привабливих дизайнів для ваших веб-проєктів</p>
+                        <div class="card-hover-effect"></div>
+                    </div>
+                    <div class="service-card" data-tilt>
+                        <div class="card-glow"></div>
+                        <div class="service-icon">
+                            <img src="images/Розробка.png" alt="Розробка">
+                        </div>
+                        <h3>Розробка</h3>
+                        <p>Професійна розробка адаптивних веб-сайтів та додатків</p>
+                        <div class="card-hover-effect"></div>
+                    </div>
+                    <div class="service-card" data-tilt>
+                        <div class="card-glow"></div>
+                        <div class="service-icon">
+                            <img src="images/Мобільні рішення.png" alt="Мобільні рішення">
+                        </div>
+                        <h3>Мобільні рішення</h3>
+                        <p>Оптимізація та розробка для мобільних пристроїв</p>
+                        <div class="card-hover-effect"></div>
+                    </div>
+                    <div class="service-card" data-tilt>
+                        <div class="card-glow"></div>
+                        <div class="service-icon">
+                            <img src="images/Оптимізація.png" alt="Оптимізація">
+                        </div>
+                        <h3>Оптимізація</h3>
+                        <p>Покращення продуктивності та швидкості завантаження</p>
+                        <div class="card-hover-effect"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Зв'яжіться з нами</h2>
+                <div class="contact-content">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Ім'я</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Повідомлення</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Відправити</button>
+                    </form>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <h3>Адреса</h3>
+                            <p>вул. Прикладна, 123<br>Київ, Україна</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Телефон</h3>
+                            <p>+380 (XX) XXX-XX-XX</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Email</h3>
+                            <p>info@simplesite.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Simple Site Template. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

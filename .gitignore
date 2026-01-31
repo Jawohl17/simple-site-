@@ -1,0 +1,27 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Lecture files
+Лекція 11-15. CSS анімація. Адаптивність. Медіа запити..html
+Лекція 11-15. CSS анімація. Адаптивність. Медіа запити._files/
+
+# Embedded git repositories
+Simple-Site/
+Simple_Site/
+
